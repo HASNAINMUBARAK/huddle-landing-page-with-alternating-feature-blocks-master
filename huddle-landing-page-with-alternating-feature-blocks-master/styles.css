@@ -1,6 +1,16 @@
 .first {
   background-image: url(./images/bg-hero-desktop.svg);
 }
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 70%;
+}
 .upper {
   
   display: flex;
@@ -18,6 +28,7 @@
 .left {
   width: 50%;
   margin: 30px;
+  padding: 20px;
 }
 .right {
   width: 50%;
@@ -26,4 +37,51 @@
 .com {
   width: 500px;
   height: 300px;
+}
+.second {
+  display: flex;
+  margin: 50px;
+
+}
+
+.third {
+  display: flex;
+  margin: 50px;
+}
+.forth {
+  display: flex;
+  margin: 50px;
+}
+.aa {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bb {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.aaa {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.bbb {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aaaa {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bbbb {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
