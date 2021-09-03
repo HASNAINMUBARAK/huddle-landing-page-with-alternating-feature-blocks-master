@@ -1,0 +1,29 @@
+.first {
+  background-image: url(./images/bg-hero-desktop.svg);
+}
+.upper {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.below {
+  display: flex;
+}
+.left {
+  width: 50%;
+  margin: 30px;
+}
+.right {
+  width: 50%;
+  margin: 30px;
+}
+.com {
+  width: 500px;
+  height: 300px;
+}
