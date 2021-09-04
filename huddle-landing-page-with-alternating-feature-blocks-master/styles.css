@@ -1,3 +1,6 @@
+body {
+  padding: 0px;
+}
 .first {
   background-image: url(./images/bg-hero-desktop.svg);
 }
@@ -39,16 +42,16 @@ p {
 }
 .second {
   display: flex;
-  margin: 50px;
+  margin: 10px;
 }
 
 .third {
   display: flex;
-  margin: 50px;
+  margin: 10px;
 }
 .forth {
   display: flex;
-  margin: 50px;
+  margin: 10px;
 }
 .aa {
   width: 50%;
@@ -102,8 +105,6 @@ p {
   color: white;
   margin-top: -50px;
 }
-footer {
-}
 .l {
   display: flex;
   align-items: center;
@@ -136,15 +137,99 @@ a {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  margin-top: 100px;
+  justify-content: inherit;
+  text-decoration: none;
 }
 .c3 {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  margin-top: 100px;
+  justify-content: inherit;
 }
 .c4 {
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: space-between;
 }
 a:hover {
   color: hsl(322, 100%, 66%);
+}
+@media screen and (max-width: 375px) {
+  .upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .forth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .fifth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lower {
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    margin-top: 50px;
+  }
+  .c1 {
+    display: flex;
+  }
+  .c2 {
+    display: contents;
+  }
+  .c3 {
+    display: contents;
+  }
+  .c4 {
+    display: contents;
+  }
+  .front {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-size: 12px;
+  }
+  a {
+    padding: 10px;
+    text-decoration: none;
+  }
 }
